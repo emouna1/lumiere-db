@@ -1,0 +1,188 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "gender": "male",
+      "age": 30,
+      "medicalHistory": [
+        "Hypertension",
+        "Seasonal allergies",
+        "Knee surgery (2015)"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "gender": "female",
+      "age": 25,
+      "medicalHistory": [
+        "Asthma",
+        "Fractured wrist (2019)",
+        "Anemia"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Emily Johnsina",
+      "gender": "Female",
+      "age": 20,
+      "medicalHistory": [
+        "Migraine",
+        "Vitamin D deficiency",
+        "Appendectomy (2024)"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Michael Brown",
+      "gender": "male",
+      "age": 45,
+      "medicalHistory": [
+        "Type 2 Diabetes",
+        "High cholesterol",
+        "Gallbladder removal (2018)"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Sarah Wilson",
+      "gender": "female",
+      "age": 33,
+      "medicalHistory": [
+        "Thyroid disorder",
+        "Frequent migraines",
+        "Sprained ankle (2021)"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Robert Martinez",
+      "gender": "male",
+      "age": 55,
+      "medicalHistory": [
+        "Heart disease",
+        "Arthritis",
+        "Hip replacement (2019)"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Jessica Taylor",
+      "gender": "female",
+      "age": 28,
+      "medicalHistory": [
+        "Anxiety",
+        "Seasonal allergies",
+        "Wisdom teeth removal (2022)"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "David Lee",
+      "gender": "male",
+      "age": 40,
+      "medicalHistory": [
+        "Obesity",
+        "Hypertension",
+        "Appendectomy (2015)"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Megan Anderson",
+      "gender": "female",
+      "age": 35,
+      "medicalHistory": [
+        "Asthma",
+        "Sinus infections",
+        "Gallbladder removal (2020)"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "James Clark",
+      "gender": "male",
+      "age": 60,
+      "medicalHistory": [
+        "Type 1 Diabetes",
+        "High blood pressure",
+        "Back surgery (2017)"
+      ]
+    },
+    {
+      "id": "253b",
+      "name": "emna",
+      "age": "44",
+      "gender": "Female",
+      "medicalHistory": [
+        "tooth remove"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "patientId": "1",
+      "date": "2024-12-01T10:00",
+      "reason": "Check-up"
+    },
+    {
+      "id": "2",
+      "patientId": "2",
+      "date": "2024-12-05T14:00",
+      "reason": "Follow-up"
+    },
+    {
+      "id": "b041",
+      "patientId": "2",
+      "date": "2024-12-12T08:00",
+      "reason": "cold"
+    }
+  ],
+  "doctor": {
+    "id": "1",
+    "name": "Dr. Sarah Connor",
+    "specialty": "Cardiology",
+    "contact": "123-456-7890",
+    "workingHours": "9:00 AM - 5:00 PM"
+  },
+  "nurses": [
+    {
+      "id": "1",
+      "name": "Nurse Henry Gonzalez",
+      "contact": "321-654-9870",
+      "shift": "Night"
+    },
+    {
+      "id": "6c1e",
+      "name": "Lora",
+      "contact": "+216 94 596 278",
+      "shift": "Evening"
+    },
+    {
+      "id": "ba61",
+      "name": "Mariem",
+      "contact": "+216 94 596 277",
+      "shift": "Night"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "patientName": "John Doe",
+      "amount": 100,
+      "date": "2024-11-01",
+      "status": "Paid",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "id": 2,
+      "patientName": "Jane Smith",
+      "amount": 200,
+      "date": "2024-11-10",
+      "status": "Pending",
+      "paymentMethod": "Cash"
+    }
+  ]
+}
